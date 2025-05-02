@@ -5,4 +5,9 @@ const output = document.querySelector('.output');
 btn.addEventListener('click', () => {
     const value = input.value;
     output.innerHTML = value;
+    showAlert();
 });
+
+function showAlert() {
+    alert('Button clicked!');
+}
